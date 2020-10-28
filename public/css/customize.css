@@ -1,0 +1,17 @@
+.name {
+    font-size: 1.5em;
+    display: inline;
+}
+
+img.icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+section {
+    background-image: url('/images/background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
