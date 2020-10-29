@@ -35,7 +35,7 @@ module.exports = function(controller) {
         }
     }], {key: 'to'});
 
-    findRoute.addMessage('Oh, I have find several paths from {{vars.from}} to {{vars.to}}, let me show you\n{{vars.method}}', 'found')
+    findRoute.addMessage('Oh, I have find several paths from {{vars.from}} to {{vars.to}}, let me show you:<br/>{{vars.method}}', 'found')
 
     findRoute.addMessage('I am sorry, I cannot find the route from {{vars.from}} to {{vars.to}}, but maybe we can try it on <a href="https://www.google.com/maps/dir/{{vars.from_url}}/{{vars.to_url}}" target="_blank">Google Map</a>?', 'not_found')
 

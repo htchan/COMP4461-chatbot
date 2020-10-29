@@ -1,8 +1,12 @@
 [
     {
         "location": ["hkust", "hong kong university of science and technology"],
-        "restaurants": [
-            
-        ]
+        "restaurants": {
+            "golden rice bowl": "https://www.openrice.com/en/hongkong/r-%E9%87%91%E9%A3%AF%E7%A2%97%E7%BE%8E%E9%A3%9F-sai-kung-hong-kong-style-ramen-r25426",
+            "Hunger Korean": "http://www.hungrykorean.com/en/menu.php",
+            "American Diner": "https://www.openrice.com/en/hongkong/r-american-diner-sai-kung-western-all-day-breakfast-r643550",
+            "Passion": "http://www.passionbygd.com/",
+            "Uni-Bar": "https://www.conferencelodge.hk/en/food-beverage/unibistroandbar.html"
+        }
     }
 ]
