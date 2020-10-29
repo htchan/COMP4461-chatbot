@@ -3,5 +3,10 @@
         "matches": ["help", "you"],
         "meaning": "It is actually not doing your stuff",
         "story": "When a lady get into a taxi, she start getting mad and yelling to the driver to drive faster. The driver keep reply the lady as \"helping you\" in a claim tone. The contradiction between lady and driver are interesting. So people would like to use \"helping you\" when someone request their help"
+    },
+    {
+        "matches": ["jetso"],
+        "meaning": "Jetso means discount or a specific offer",
+        "story": "Oh, I remember it wrongly, there is no story got \"Jetso\""
     }
 ]

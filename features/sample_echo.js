@@ -29,7 +29,7 @@ module.exports = function(controller) {
             messageHistory[message.text] += 1;
             messageHistory[message.text] %= 2
             await bot.reply(message, `i am sorry that i really don\'t understand what the <strong>${message.text}</strong> means 😢`);
-            await timeout(100);
+            await timeout(200);
             await bot.reply(message, {
                 text: 'Maybe you can try to ask me about these things 😙',
                 quick_replies: [
@@ -60,4 +60,11 @@ module.exports = function(controller) {
     });
 
     //TODO: saying hi.
+    controller.hears( (message) => message.text.toLowerCase() === "hi", 'message', async(bot, message) => {
+        bot.reply(message, 'Hello, I am Sai Mai Zaai, your Hong Kong Travel Advisor');
+        await timeout(300)
+        bot.reply(message, 'You can use English to talk with me');
+        await timeout(300);
+        bot.reply(message, 'You can type <button onclick="helpOnClick">help</button> to see what I can do');
+    })
 }

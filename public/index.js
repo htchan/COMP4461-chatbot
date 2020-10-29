@@ -4,3 +4,7 @@ section.onclick = ()=> input.focus();
 
 let help_button = document.getElementById('help');
 help_button.onclick = () => Botkit.send('help');
+
+function helpOnClick() {
+    Botkit.send('help');
+}
