@@ -42,8 +42,8 @@ module.exports = function(controller) {
                         payload: "go"
                     },
                     {
-                        title: "Find toliet",
-                        payload: "toliet"
+                        title: "Find toilet",
+                        payload: "toilet"
                     },
                     {
                         title: "Activity suggestion",
@@ -59,7 +59,7 @@ module.exports = function(controller) {
         //await bot.reply(message, `Echo: ${ message.text }`);
     });
 
-    //TODO: saying hi.
+    // saying hi.
     controller.hears( (message) => message.text.toLowerCase() === "hi", 'message', async(bot, message) => {
         bot.reply(message, 'Hello, I am Sai Mai Zaai, your Hong Kong Travel Advisor');
         await timeout(300)

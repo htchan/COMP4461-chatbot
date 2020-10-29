@@ -2,19 +2,19 @@
     {
         "from": ["hkust", "hong kong university of science and technology"],
         "to": ["hang hau"],
-        "method": {
-            "bus": "url_for_bus",
-            "minibus": "url_for_minibus",
-            "taxi": "url_for_taxi"
+        "methods": {
+            "bus": "https://www.google.com/maps/dir/%E6%B8%85%E6%B0%B4%E7%81%A3%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/Hang+Hau+Station,+%E5%9D%91%E5%8F%A3/@22.3255997,114.2580445,15z/am=t/data=!4m19!4m18!1m5!1m1!1s0x3404046bc19c7e15:0x2bedd58f9cf841be!2m2!1d114.2654655!2d22.3363998!1m5!1m1!1s0x3404038a97e34bdf:0x4b967d2d0aec2892!2m2!1d114.2642247!2d22.3155765!2m3!6e0!7e2!8j1604070000!3e3!5i3",
+            "minibus": "https://www.google.com/maps/dir/%E6%B8%85%E6%B0%B4%E7%81%A3%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/Hang+Hau+Station,+%E5%9D%91%E5%8F%A3/@22.3255997,114.2580445,15z/am=t/data=!4m19!4m18!1m5!1m1!1s0x3404046bc19c7e15:0x2bedd58f9cf841be!2m2!1d114.2654655!2d22.3363998!1m5!1m1!1s0x3404038a97e34bdf:0x4b967d2d0aec2892!2m2!1d114.2642247!2d22.3155765!2m3!6e0!7e2!8j1604070000!3e3!5i1",
+            "taxi": "https://www.google.com/maps/dir/%E6%B8%85%E6%B0%B4%E7%81%A3%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/Hang+Hau+Station,+%E5%9D%91%E5%8F%A3/@22.3267172,114.2561924,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x3404046bc19c7e15:0x2bedd58f9cf841be!2m2!1d114.2654655!2d22.3363998!1m5!1m1!1s0x3404038a97e34bdf:0x4b967d2d0aec2892!2m2!1d114.2642247!2d22.3155765!2m3!6e0!7e2!8j1604070000!3e0"
         }
     },
     {
         "from": ["hang hau"],
         "to": ["hkust", "hong kong university of science and technology"],
-        "method": {
-            "bus": "url_for_bus",
-            "minibus": "url_for_bus",
-            "taxi": "url_for_taxi"
+        "methods": {
+            "bus": "https://www.google.com/maps/dir/Hang+Hau+Station,+%E5%9D%91%E5%8F%A3/%E6%B8%85%E6%B0%B4%E7%81%A3%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/@22.3259338,114.2579509,15z/am=t/data=!4m19!4m18!1m5!1m1!1s0x3404038a97e34bdf:0x4b967d2d0aec2892!2m2!1d114.2642247!2d22.3155765!1m5!1m1!1s0x3404046bc19c7e15:0x2bedd58f9cf841be!2m2!1d114.2654655!2d22.3363998!2m3!6e0!7e2!8j1604070000!3e3!5i2",
+            "minibus": "https://www.google.com/maps/dir/Hang+Hau+Station,+%E5%9D%91%E5%8F%A3/%E6%B8%85%E6%B0%B4%E7%81%A3%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/@22.3259139,114.2579509,15z/am=t/data=!3m1!4b1!4m19!4m18!1m5!1m1!1s0x3404038a97e34bdf:0x4b967d2d0aec2892!2m2!1d114.2642247!2d22.3155765!1m5!1m1!1s0x3404046bc19c7e15:0x2bedd58f9cf841be!2m2!1d114.2654655!2d22.3363998!2m3!6e0!7e2!8j1604070000!3e3!5i1",
+            "taxi": "https://www.google.com/maps/dir/Hang+Hau+Station,+%E5%9D%91%E5%8F%A3/%E6%B8%85%E6%B0%B4%E7%81%A3%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/@22.3267951,114.2561696,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x3404038a97e34bdf:0x4b967d2d0aec2892!2m2!1d114.2642247!2d22.3155765!1m5!1m1!1s0x3404046bc19c7e15:0x2bedd58f9cf841be!2m2!1d114.2654655!2d22.3363998!2m3!6e0!7e2!8j1604070000!3e0"
         }
     }
 ]

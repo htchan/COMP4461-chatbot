@@ -37,8 +37,8 @@ module.exports = function(controller) {
                     payload: "Please help me find a route"
                 },
                 {
-                    title: "Find toliet",
-                    payload: "Do you know where is the toliet?"
+                    title: "Find toilet",
+                    payload: "Do you know where is the toilet?"
                 },
                 {
                     title: "Activity suggestion",

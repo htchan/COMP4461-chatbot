@@ -1,11 +1,11 @@
 const { BotkitConversation } = require("botkit")
 
 module.exports = function(controller) {
-    //TODO: implement the dialog for finding toliet
+    //TODO: implement the dialog for finding toilet
     let apiHost = 'localhost:3000';
 
-    let callTolietApi = async(location) => {
-        return await fetch(`http://${apiHost}/api/toliet.json`)
+    let callToiletApi = async(location) => {
+        return await fetch(`http://${apiHost}/api/toilet.json`)
         .then( response => response.json() )
         .then( async(items) => {
             let found = null;
@@ -19,17 +19,17 @@ module.exports = function(controller) {
         })
     }
 
-    let findToliet = new BotkitConversation('find_toliet', controller);
-    findToliet.ask('I have to know where are you to help you find toliet, may i get your permission on GPS?',[
+    let findToilet = new BotkitConversation('find_toilet', controller);
+    findToilet.ask('I have to know where are you to help you find toilet, may I have your GPS permission?',[
         {
             pattern: 'yes',
             type: 'string',
             handler: async(response_message, t, bot, message) => {
                 let fake_location = 'hkust'
                 t.setVar('location', fake_location);
-                let toliet = await callTolietApi(t.vars.location);
-                if (toliet) {
-                    t.setVar('toliet', toliet.toliet);
+                let toilet = await callToiletApi(t.vars.location);
+                if (toilet) {
+                    t.setVar('toilet', toilet.toilet);
                     return await t.gotoThread('found');
                 } else {
                     t.setVar('location_url', fake_location.replace(/ /g, "+"));
@@ -53,14 +53,14 @@ module.exports = function(controller) {
         }
     ]);
 
-    findToliet.addQuestion('How about telling me where you are?', [
+    findToilet.addQuestion('How about telling me where you are?', [
         {
             default: true,
             handler: async(response, t, bot, mesage) => {
                 t.setVar('location', response);
-                let toliet = await callTolietApi(response);
-                if (toliet) {
-                    t.setVar('toliet', toliet.toliet);
+                let toilet = await callToiletApi(response);
+                if (toilet) {
+                    t.setVar('toilet', toilet.toilet);
                     return await t.gotoThread('found');
                 } else {
                     t.setVar('location_url', response.replace(/ /g, "+"));
@@ -70,14 +70,14 @@ module.exports = function(controller) {
         }
     ], '', 'ask_location');
 
-    findToliet.addMessage('I have found the nearest toliet, the nearest toliet is {{vars.toliet}}, hope it can help you', 'found');
+    findToilet.addMessage('I have found the nearest toilet, the nearest toilet is {{vars.toilet}}, hope it can help you', 'found');
 
-    findToliet.addMessage('Sorry, I cant find any toliet near you in my database, maybe we can try <a href="https://www.google.com/maps/place/{{vars.location_url}}" target="_blank">Google Map</a>?', 'not_found')
+    findToilet.addMessage('Sorry, I cant find any toilet near you in my database, maybe we can try <a href="https://www.google.com/maps/place/{{vars.location_url}}" target="_blank">Google Map</a>?', 'not_found')
 
-    controller.addDialog(findToliet);
+    controller.addDialog(findToilet);
 
-    controller.hears(['toliet'], 'message', async(bot, message) => {
-        await bot.beginDialog('find_toliet');
+    controller.hears(['toilet'], 'message', async(bot, message) => {
+        await bot.beginDialog('find_toilet');
     })
 
 };

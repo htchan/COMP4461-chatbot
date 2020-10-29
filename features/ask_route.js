@@ -19,11 +19,12 @@ module.exports = function(controller) {
                     if ((items[i].from.some( location_str => r.vars.from.search(new RegExp(location_str, "i")) >= 0))
                         && (items[i].to.some( location_str => response_text.search(new RegExp(location_str, "i")) >= 0))) {
                             found = items[i];
-                            r.setVar('method', items[i]);
                             break;
                         }
                 }
                 if (found) {
+                    let method = Object.keys(found.methods).reduce((value, i) => `${value} [**${i}**](${found.methods[i]})`, '');
+                    r.setVar('method', method)
                     return await r.gotoThread('found');
                 } else {
                     r.setVar('from_url', r.vars.from.replace(/ /g, '+'));
