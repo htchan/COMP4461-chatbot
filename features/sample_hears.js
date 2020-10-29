@@ -21,28 +21,29 @@ module.exports = function(controller) {
     */
     // give a quick guide to user
     controller.interrupts((message) => message.text.toLowerCase() === 'help', 'message', async(bot, message) => {
+        await bot.cancelAllDialogs();
         await bot.reply(message, {
             text: "The following are the things I can help you",
             quick_replies: [
                 {
                     title: "Find restaurant",
-                    payload: "restaurant"
+                    payload: "Can you suggest some restaurants to me?"
                 },
                 {
                     title: "Go somewhere",
-                    payload: "go"
+                    payload: "Please help me find a route"
                 },
                 {
                     title: "Find toliet",
-                    payload: "toliet"
+                    payload: "Do you know where is the toliet?"
                 },
                 {
                     title: "Activity suggestion",
-                    payload: "activity"
+                    payload: "Do you have any activities suggestion?"
                 },
                 {
                     title: "Translat local phase",
-                    payload: "translate"
+                    payload: "Can you help me translate a phase?"
                 }
             ]
         });
@@ -50,10 +51,6 @@ module.exports = function(controller) {
 
     controller.interrupts('quit', 'message', async(bot, message) => {
         await bot.reply(message, 'See you👋👋👋');
-        await bot.reply(message, `<img src="/images/bye.gif"/></p>
-        <script type='text/javascript'>
-        console.log('hello')
-        </script><p>
-        `)
-    })
+        await bot.reply(message, `<img src="/images/bye.gif"/></p>`);
+    });
 }

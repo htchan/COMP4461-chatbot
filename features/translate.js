@@ -14,7 +14,7 @@ module.exports = function(controller) {
                 .then( async(items) => {
                     let found = null;
                     for (let i in items) {
-                        if (items[i].matches.every( match_str => response_text.search(new RegExp(match_str)) >= 0)) {
+                        if (items[i].matches.every( match_str => response_text.search(new RegExp(match_str, "i")) >= 0)) {
                             found = items[i];
                             t.setVar('translateItem', items[i]);
                             break;

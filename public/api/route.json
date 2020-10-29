@@ -1,0 +1,20 @@
+[
+    {
+        "from": ["hkust", "hong kong university of science and technology"],
+        "to": ["hang hau"],
+        "method": {
+            "bus": "url_for_bus",
+            "minibus": "url_for_minibus",
+            "taxi": "url_for_taxi"
+        }
+    },
+    {
+        "from": ["hang hau"],
+        "to": ["hkust", "hong kong university of science and technology"],
+        "method": {
+            "bus": "url_for_bus",
+            "minibus": "url_for_bus",
+            "taxi": "url_for_taxi"
+        }
+    }
+]

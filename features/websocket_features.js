@@ -3,12 +3,12 @@
  * Licensed under the MIT License.
  */
 module.exports = function(controller) {
-
+/*
     if (controller.adapter.name === 'Web Adapter') {
 
         console.log('Loading sample web features...');
 
-        controller.hears(new RegExp('quick'), 'message', async (bot, message) => {
+        controller.hears(new RegExp('quick', "i"), 'message', async (bot, message) => {
 
             await bot.reply(message,{
                 text: 'Here are some quick replies',
@@ -27,5 +27,6 @@ module.exports = function(controller) {
 
 
     }
+    */
 
 }
