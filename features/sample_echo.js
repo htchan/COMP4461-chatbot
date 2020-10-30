@@ -62,6 +62,7 @@ module.exports = function(controller) {
     // saying hi.
     controller.hears( (message) => message.text.toLowerCase() === "hi", 'message', async(bot, message) => {
         bot.reply(message, 'Hello, I am Sai Mai Zaai, your Hong Kong Travel Advisor');
+        bot.reply(message, '<img class="msg_img" src="/images/icon.png"/>');
         await timeout(300)
         bot.reply(message, 'You can use English to talk with me');
         await timeout(300);
