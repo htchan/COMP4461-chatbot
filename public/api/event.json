@@ -15,7 +15,7 @@
         "title": "Hiking - ",
         "location": "",
         "url": "",
-        "desc": ""
+        "desc": "this is hiking desc"
     },
     {
         "available": true,
@@ -24,7 +24,7 @@
         "title": "Shopping - ",
         "location": "",
         "url": "",
-        "desc": ""
+        "desc": "this is shopping desc"
     }
 
 ]

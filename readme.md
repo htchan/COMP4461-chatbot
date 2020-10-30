@@ -1,10 +1,30 @@
-# Botkit Starter Kit
+# sai mai zaais
+----
+This is a chatbot prototype to giving tour suggestion to tourist in Hong Kong. As this is just a chatbot **prototype**, it focus on demo what function will be include in the product. Some of the functions maybe limited to specific question and answer. Also, the it may redirect you to external website for the question that he cannot handle.
 
-This is a Botkit starter kit for web, created with the [Yeoman generator](https://github.com/howdyai/botkit/tree/master/packages/generator-botkit#readme).
+Sai Mai Zaai server for below purpose:
+- Suggest transport between two place in Hong Kong
+- Suggest restaurant for breakfast, lunch, tea time and dinner
+- Find toliet in nearest place
+- Suggest activity to do
+    - Have a walk
+    - Special Event
+    - Hiking
+    - Shopping
+- basic translate of mostly used phase in Hong Kong
 
-To complete the configuration of this bot, make sure to update the included `.env` file with your platform tokens and credentials.
+special function:
+- ask for place good for taking photo (eg. enjoy sunset)
 
-[Botkit Docs](https://botkit.ai/docs/v4)
+to do:
+    - ok - ask user preference before actual give event suggestion
+    - ok - implement special function
+    - ok - ask user food preference before suggestion
+    - ok - ask user GPS before request them to type
 
-This bot is powered by [a folder full of modules](https://botkit.ai/docs/v4/core.html#organize-your-bot-code). 
-Edit the samples, and add your own in the [features/](features/) folder.
+# design purpose
+----
+- add name of chatbot and its icon at the top
+- add `index.js` to focus on input box when click on the background (easy input)
+- add init message and set help button for user to click and see what bot can do
+- not implement the typing ... as user also not have such features

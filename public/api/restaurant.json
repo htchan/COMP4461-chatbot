@@ -1,12 +1,32 @@
 [
     {
         "location": ["hkust", "hong kong university of science and technology"],
-        "restaurants": {
-            "golden rice bowl": "https://www.openrice.com/en/hongkong/r-%E9%87%91%E9%A3%AF%E7%A2%97%E7%BE%8E%E9%A3%9F-sai-kung-hong-kong-style-ramen-r25426",
-            "Hunger Korean": "http://www.hungrykorean.com/en/menu.php",
-            "American Diner": "https://www.openrice.com/en/hongkong/r-american-diner-sai-kung-western-all-day-breakfast-r643550",
-            "Passion": "http://www.passionbygd.com/",
-            "Uni-Bar": "https://www.conferencelodge.hk/en/food-beverage/unibistroandbar.html"
-        }
+        "restaurants": [
+            {
+                "type": "chinese",
+                "name": "golden rice bowl", 
+                "url": "https://www.openrice.com/en/hongkong/r-%E9%87%91%E9%A3%AF%E7%A2%97%E7%BE%8E%E9%A3%9F-sai-kung-hong-kong-style-ramen-r25426"
+            },
+            {
+                "type": "korean",
+                "name": "Hunger Korean", 
+                "url": "http://www.hungrykorean.com/en/menu.php"
+            },
+            {
+                "type": "american",
+                "name": "American Diner", 
+                "url": "https://www.openrice.com/en/hongkong/r-american-diner-sai-kung-western-all-day-breakfast-r643550"
+            },
+            {
+                "type": "franch",
+                "name": "Passion", 
+                "url": "http://www.passionbygd.com/"
+            },
+            {
+                "type": "",
+                "name": "Uni-Bar", 
+                "url": "https://www.conferencelodge.hk/en/food-beverage/unibistroandbar.html"
+            }
+        ]
     }
 ]

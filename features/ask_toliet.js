@@ -20,7 +20,13 @@ module.exports = function(controller) {
     }
 
     let findToilet = new BotkitConversation('find_toilet', controller);
-    findToilet.ask('I have to know where are you to help you find toilet, may I have your GPS permission?',[
+    findToilet.ask({
+        text: 'I have to know where are you to help you find toilet, may I have your GPS permission?',
+        quick_replies: [
+            { title: 'Yes', payload: 'yes' },
+            { title: 'No', payload: 'no' }
+        ]
+    },[
         {
             pattern: 'yes',
             type: 'string',

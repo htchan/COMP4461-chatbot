@@ -15,3 +15,7 @@ section {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.msg_img {
+    width: 50vw;
+}

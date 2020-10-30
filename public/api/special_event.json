@@ -1,0 +1,44 @@
+{
+    "midnight": [
+        {
+            "name": "How about going to bar?",
+            "desc": "There is a street that full of Bar in Hong Kong call Lan Qui Fong, you can enjoy your chill time here",
+            "sample": "https://www.discoverhongkong.com/content/dam/dhk/intl/explore/neighbourhoods/interactive-map/attractions/lan-kwai-fong-640x480.jpg",
+            "location": "Lan Qui Fong"
+        }
+    ],
+    "morning": [
+        {
+            "name": "Would you like to see the sun rise?",
+            "desc": "The sun rise meaning the start of the day and you will see everyone wake up and the city start working at that time.",
+            "sample": "https://i.ytimg.com/vi/oyNmGkrajHE/maxresdefault.jpg",
+            "location": "Shek O beach"
+        }
+    ],
+    "afternoon": [
+        {
+            "name": "lets take some amazing photo !!!",
+            "desc": "Choi Hung Estate is a popular place to take photo because of its colorful building background",
+            "sample": "http://choi-hung.hk/attraction/choi-hung/choi-hung-01.jpg",
+            "location": "Choi Hung Esate"
+        }
+
+    ],
+    "evening": [
+        {
+            "name": "Sun set in Hong Kong is nice",
+            "desc": "You may want to go Ha Pak Nai to see the sunset, it is really beautiful!!!",
+            "sample": "https://www.canon.com.hk/public/article/Skill_Sharing_Photography/10363/images/01.jpg",
+            "location": "Ha Pak Nai"
+        }
+
+    ],
+    "night": [
+        {
+            "name": "Have you enjoy the night view of HK?",
+            "desc": "At night, ",
+            "sample": "http://www.canon.com.hk/public/article/Skill_Sharing_Photography/10328/images/05.jpg",
+            "location": "Peak"
+        }
+    ]
+}
