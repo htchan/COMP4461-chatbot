@@ -35,7 +35,7 @@ module.exports = function(controller) {
                 t.setVar('location', fake_location);
                 let toilet = await callToiletApi(t.vars.location);
                 if (toilet) {
-                    t.setVar('toilet', toilet.toilet);
+                    t.setVar('toilet', toilet);
                     return await t.gotoThread('found');
                 } else {
                     t.setVar('location_url', fake_location.replace(/ /g, "+"));
@@ -66,7 +66,7 @@ module.exports = function(controller) {
                 t.setVar('location', response);
                 let toilet = await callToiletApi(response);
                 if (toilet) {
-                    t.setVar('toilet', toilet.toilet);
+                    t.setVar('toilet', toilet);
                     return await t.gotoThread('found');
                 } else {
                     t.setVar('location_url', response.replace(/ /g, "+"));
@@ -76,7 +76,7 @@ module.exports = function(controller) {
         }
     ], '', 'ask_location');
 
-    findToilet.addMessage('I have found the nearest toilet, the nearest toilet is {{vars.toilet}}, hope it can help you', 'found');
+    findToilet.addMessage('I have found the nearest toilet, the nearest toilet is {{vars.toilet.toilet}}, you can find it on <a href="{{vars.toilet.link}}" target="_blank">Google Map</a>', 'found');
 
     findToilet.addMessage('Sorry, I cant find any toilet near you in my database, maybe we can try <a href="https://www.google.com/maps/place/{{vars.location_url}}" target="_blank">Google Map</a>?', 'not_found')
 

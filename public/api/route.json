@@ -16,5 +16,23 @@
             "minibus": "https://www.google.com/maps/dir/Hang+Hau+Station,+%E5%9D%91%E5%8F%A3/%E6%B8%85%E6%B0%B4%E7%81%A3%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/@22.3259139,114.2579509,15z/am=t/data=!3m1!4b1!4m19!4m18!1m5!1m1!1s0x3404038a97e34bdf:0x4b967d2d0aec2892!2m2!1d114.2642247!2d22.3155765!1m5!1m1!1s0x3404046bc19c7e15:0x2bedd58f9cf841be!2m2!1d114.2654655!2d22.3363998!2m3!6e0!7e2!8j1604070000!3e3!5i1",
             "taxi": "https://www.google.com/maps/dir/Hang+Hau+Station,+%E5%9D%91%E5%8F%A3/%E6%B8%85%E6%B0%B4%E7%81%A3%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/@22.3267951,114.2561696,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x3404038a97e34bdf:0x4b967d2d0aec2892!2m2!1d114.2642247!2d22.3155765!1m5!1m1!1s0x3404046bc19c7e15:0x2bedd58f9cf841be!2m2!1d114.2654655!2d22.3363998!2m3!6e0!7e2!8j1604070000!3e0"
         }
+    },
+    {
+        "from": ["airport", "hong kong airport"],
+        "to": ["mong kok"],
+        "methods": {
+            "bus": "https://www.google.com.hk/maps/dir/Hong+Kong+International+Airport,+翔天路赤鱲角/旺角/@22.3265524,113.9739832,12z/am=t/data=!4m14!4m13!1m5!1m1!1s0x3403e2f3cc46c69d:0xf9f590821892369e!2m2!1d113.9184808!2d22.308047!1m5!1m1!1s0x340400c62bc7810f:0x3ba12a5918081894!2m2!1d114.169773!2d22.3203648!3e3?hl=en",
+            "MTR(railway)": "https://www.google.com.hk/maps/dir/Hong+Kong+International+Airport,+翔天路赤鱲角/旺角/@22.3265524,113.9739832,12z/am=t/data=!4m15!4m14!1m5!1m1!1s0x3403e2f3cc46c69d:0xf9f590821892369e!2m2!1d113.9184808!2d22.308047!1m5!1m1!1s0x340400c62bc7810f:0x3ba12a5918081894!2m2!1d114.169773!2d22.3203648!3e3!5i1?hl=en",
+            "taxi": "https://www.google.com.hk/maps/dir/Hong+Kong+International+Airport,+翔天路赤鱲角/旺角/@22.332762,113.973918,12z/data=!4m14!4m13!1m5!1m1!1s0x3403e2f3cc46c69d:0xf9f590821892369e!2m2!1d113.9184808!2d22.308047!1m5!1m1!1s0x340400c62bc7810f:0x3ba12a5918081894!2m2!1d114.169773!2d22.3203648!3e0?hl=en"
+        }
+    },
+    {
+        "from": ["mong kok"],
+        "to": ["Tsim Sha Tsui"],
+        "methods": {
+            "bus": "https://www.google.com.hk/maps/dir/旺角/Tsim+Sha+Tsui/@22.3089672,114.1620259,15z/am=t/data=!4m15!4m14!1m5!1m1!1s0x340400c62bc7810f:0x3ba12a5918081894!2m2!1d114.169773!2d22.3203648!1m5!1m1!1s0x340400ed82fb69dd:0xe2ad6a483997404!2m2!1d114.1721746!2d22.2988123!3e3!5i1",
+            "MTR(railway)": "https://www.google.com.hk/maps/dir/旺角/Tsim+Sha+Tsui/@22.3089672,114.1620259,15z/am=t/data=!4m14!4m13!1m5!1m1!1s0x340400c62bc7810f:0x3ba12a5918081894!2m2!1d114.169773!2d22.3203648!1m5!1m1!1s0x340400ed82fb69dd:0xe2ad6a483997404!2m2!1d114.1721746!2d22.2988123!3e3",
+            "taxi": "https://www.google.com.hk/maps/dir/旺角/Tsim+Sha+Tsui/@22.3095875,114.157731,15z/am=t/data=!4m14!4m13!1m5!1m1!1s0x340400c62bc7810f:0x3ba12a5918081894!2m2!1d114.169773!2d22.3203648!1m5!1m1!1s0x340400ed82fb69dd:0xe2ad6a483997404!2m2!1d114.1721746!2d22.2988123!3e0"
+        }
     }
 ]

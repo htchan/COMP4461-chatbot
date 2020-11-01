@@ -18,14 +18,64 @@
                 "url": "https://www.openrice.com/en/hongkong/r-american-diner-sai-kung-western-all-day-breakfast-r643550"
             },
             {
-                "type": "franch",
+                "type": "other",
                 "name": "Passion", 
                 "url": "http://www.passionbygd.com/"
             },
             {
-                "type": "",
+                "type": "other",
                 "name": "Uni-Bar", 
                 "url": "https://www.conferencelodge.hk/en/food-beverage/unibistroandbar.html"
+            }
+        ]
+    },
+    {
+        "location": ["hang hau"],
+        "restaurants": [
+            {
+                "type": "japanese",
+                "name": "Gyu-Kaku",
+                "url": "https://www.openrice.com/zh/hongkong/r-%E7%89%9B%E8%A7%92%E6%97%A5%E6%9C%AC%E7%87%92%E8%82%89%E5%B0%88%E9%96%80%E5%BA%97-%E5%B0%87%E8%BB%8D%E6%BE%B3-%E6%97%A5%E6%9C%AC%E8%8F%9C-%E7%83%A4%E8%82%89-r534466"
+            },
+            {
+                "type": "american",
+                "name": "Zeppelin Hot Dog",
+                "url": "https://www.openrice.com/zh/hongkong/r-%E9%BD%8A%E6%9F%8F%E6%9E%97%E7%86%B1%E7%8B%97%E5%BA%97-%E5%B0%87%E8%BB%8D%E6%BE%B3-%E8%A5%BF%E5%BC%8F-%E4%B8%89%E6%96%87%E6%B2%BB-r675230"
+            },
+            {
+                "type": "local",
+                "name": "Beans Brekkie Room",
+                "url": "https://www.openrice.com/zh/hongkong/r-beans-brekkie-room-%E5%B0%87%E8%BB%8D%E6%BE%B3-%E8%A5%BF%E5%BC%8F-all-day-breakfast-r623022"
+            },
+            {
+                "type": "other",
+                "name": "#What The Food",
+                "url": "https://www.openrice.com/zh/hongkong/r-what-the-food-%E5%B0%87%E8%BB%8D%E6%BE%B3-%E8%A5%BF%E7%8F%AD%E7%89%99%E8%8F%9C-r611802"
+            }
+        ]
+    },
+    {
+        "location": ["Tim Sha Tsui","TST"],
+        "restaurants": [
+            {
+                "type": "other",
+                "name": "Future Bar by Green Common",
+                "url": "https://www.openrice.com/zh/hongkong/r-future-bar-by-green-common-%E5%B0%96%E6%B2%99%E5%92%80-%E8%A5%BF%E5%BC%8F-r642566"
+            },
+            {
+                "type": "american",
+                "name": "sensory ZERO",
+                "url": "https://www.openrice.com/zh/hongkong/r-%E9%BD%8A%E6%9F%8F%E6%9E%97%E7%86%B1%E7%8B%97%E5%BA%97-%E5%B0%87%E8%BB%8D%E6%BE%B3-%E8%A5%BF%E5%BC%8F-%E4%B8%89%E6%96%87%E6%B2%BB-r675230"
+            },
+            {
+                "type": "japanese",
+                "name": "Betsutenjin (博多拉麵別天神)",
+                "url": "https://www.openrice.com/zh/hongkong/r-%E5%8D%9A%E5%A4%9A%E6%8B%89%E9%BA%B5%E5%88%A5%E5%A4%A9%E7%A5%9E-%E5%B0%96%E6%B2%99%E5%92%80-%E6%97%A5%E6%9C%AC%E8%8F%9C-%E6%8B%89%E9%BA%B5-r153775"
+            },
+            {
+                   "type":"local",
+                   "name": "Mei Lok Store (美樂士多)",
+                   "url":"https://www.openrice.com/zh/hongkong/r-%E7%BE%8E%E6%A8%82%E5%A3%AB%E5%A4%9A-%E5%B0%96%E6%B2%99%E5%92%80-%E6%B8%AF%E5%BC%8F-r669385"
             }
         ]
     }

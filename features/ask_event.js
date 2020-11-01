@@ -123,7 +123,7 @@ module.exports = function(controller) {
             pattern: 'other',
             type: 'string',
             handler: async(response, ask, bot, message) => {
-                let events = await callEventApi('museum');
+                let events = await callEventApi(r.vars.prefer);
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
                 await bot.reply(message, `I have found some info for you :`)

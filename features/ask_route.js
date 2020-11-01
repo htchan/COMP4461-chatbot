@@ -17,6 +17,7 @@ module.exports = function(controller) {
             handler: async(response_message, r, bot, message) => {
                 let fake_location = 'hkust'
                 r.setVar('from', fake_location);
+                console.log(r.vars.from);
                 return await r.gotoThread('ask_to');
             }
         },
@@ -65,6 +66,7 @@ module.exports = function(controller) {
                     r.setVar('method', method)
                     return await r.gotoThread('found');
                 } else {
+                    r.setVar('to', response_text)
                     r.setVar('from_url', r.vars.from.replace(/ /g, '+'));
                     r.setVar('to_url', r.vars.to.replace(/ /g, '+'));
                     return await r.gotoThread('not_found');

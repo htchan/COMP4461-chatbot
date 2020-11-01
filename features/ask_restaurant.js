@@ -82,12 +82,13 @@ module.exports = function(controller) {
     findRestaurant.addQuestion({
         text: 'I have search some restaurant for you, do you have any preference on the food?',
         quick_replies: [
-            { title: 'Local Food', payload:'i like to have some local food' },
-            { title: 'Chinese Food', payload:'i like to have some Chinese food' },
-            { title: 'Korean Food', payload:'i like to have some Korean food' },
-            { title: 'American Food', payload:'i like to have some American food' },
-            { title: 'Franch Food', payload:'i like to have some Franch food' },
-            { title: 'Japanese Food', payload:'i like to have some Japanese food' },
+            { title: 'Local Food', payload:'I like to have some local food' },
+            { title: 'Chinese Food', payload:'I like to have some Chinese food' },
+            { title: 'Korean Food', payload:'I like to have some Korean food' },
+            { title: 'American Food', payload:'I like to have some American food' },
+            { title: 'Japanese Food', payload:'I like to have some Japanese food' },
+            { title: 'other type', payload:'I like to have other types' },
+            { title: 'No preference', payload:'I have no preference on it' },
         ]
     },[
         {
@@ -139,22 +140,6 @@ module.exports = function(controller) {
             }
         },
         {
-            pattern: 'franch',
-            type: 'string',
-            handler: async(response, r, bot, message) => {
-                let found = r.vars.suggestion.filter( item => item.type === 'franch');
-                if (found.length > 0) {
-                    let suggestion = found.reduce((value, item) => `${value} [**${item.name}**](${item.url})`, '');
-                    r.setVar('suggestion', suggestion);
-                    return await r.gotoThread('found');
-                } else {
-                    r.setVar('type', response);
-                    return await r.gotoThread('not_found_type');
-                }
-
-            }
-        },
-        {
             pattern: 'korean',
             type: 'string',
             handler: async(response, r, bot, message) => {
@@ -188,7 +173,23 @@ module.exports = function(controller) {
             }
         },
         {
-            pattern: 'no',
+            pattern: 'other',
+            type: 'string',
+            handler: async(response, r, bot, message) => {
+                let found = r.vars.suggestion.filter( item => item.type === 'other');
+                if (found.length > 0) {
+                    let suggestion = found.reduce((value, item) => `${value} [**${item.name}**](${item.url})`, '');
+                    r.setVar('suggestion', suggestion);
+                    return await r.gotoThread('found');
+                } else {
+                    r.setVar('type', response);
+                    return await r.gotoThread('not_found_type');
+                }
+
+            }
+        },
+        {
+            pattern: 'no preference',
             type: 'string',
             handler: async(response, r, bot, message) => {
                 let found = r.vars.suggestion;

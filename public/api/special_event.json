@@ -15,14 +15,14 @@
             "location": "Shek O beach"
         },
         {
-            "name": "Sam Ka Tsuen",
-            "desc": "A urban fishing village which you can discover the old HK!",
+            "name": "How about a fishing village that can show you the old Hong Kong?",
+            "desc": "Sam Ka Tsuen is a village that closes to urban and have some good seafood to try",
             "sample": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sam_Ka_Tsuen_Typhoon_Shelter_201106.jpg",
             "location": "Yau Tong"
         },
         {
-            "name": "West Kowloon Cultural District",
-            "desc": "A new place that you see the west side of the Victoria Harbour",
+            "name": "Do you want to see a different view of Victoria Habour?",
+            "desc": "West Kowloon Cultural District is a new place that you see the west side of the Victoria Harbour",
             "sample": "https://webmedia.westkowloon.hk/media/w1400h1400/park/cover-district-artpark-2.jpg",
             "location": "Tim Sha Tsui"
         }
@@ -35,32 +35,32 @@
             "location": "Choi Hung Esate"
         },
         {
-            "name": "Kwun Tong Sea Front",
-            "desc": "A place that is good for couple and have a nice walk, near some shopping spots and easy to reach",
+            "name": "Can you image a seafront park in an indsutrial area?",
+            "desc": "Kwun Tong Sea Front is a place that is good for couple and have a nice walk, easy to reach as well",
             "sample": "https://upload.cc/i1/2020/11/01/fEIh2j.jpg",
             "location": "Kwun Tong"
         },
         {
-            "name": "Ocean Terminal Deck",
-            "desc": "The top roof of one of the famous shopping malls, can view Victoria Harbour in a different way",
+            "name": "Beside Star Ferry Pier that everyone knows, do you know Ocean Terminal Deck is also a good spot for outlook Victoria Harbour?",
+            "desc": "It is at the top roof of one of the famous shopping malls, it is easy to reach as you could follow the instruction inside the Ocean Terminal",
             "sample": "https://upload.cc/i1/2020/11/01/zUH4yN.jpg",
             "location": "Tim Sha Tsui"
         },
         {
-            "name": "Ma Wan Beach",
-            "desc": "Can view Tsing Ma Bridge in person, not just in car!",
+            "name": "Have you ever thought about take a nice look of the Tsing Ma Bridge?",
+            "desc": "Ma Wan Beach is a good place that allow you view Tsing Ma Bridge closely, not just in car!",
             "sample": "https://upload.cc/i1/2020/11/01/dZ5uJR.jpg",
             "location": "Ma Wan"
         },
         {
-            "name": "Sam Ka Tsuen",
-            "desc": "A urban fishing village which you can discover the old HK!",
+            "name": "How about a fishing village that can show you the old Hong Kong?",
+            "desc": "Sam Ka Tsuen is a village that closes to urban and have some good seafood to try",
             "sample": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sam_Ka_Tsuen_Typhoon_Shelter_201106.jpg",
             "location": "Yau Tong"
         },
         {
-            "name": "West Kowloon Cultural District",
-            "desc": "A new place that you see the west side of the Victoria Harbour",
+            "name": "Bored about Kowloon Park and Hong Kong Park? West Kowloon Cultural District is a new park that attracts many people visiting",
+            "desc": "In West Kowloon Cultural District, you could see the west side of the Victoria Harbour, which is amazing!",
             "sample": "https://webmedia.westkowloon.hk/media/w1400h1400/park/cover-district-artpark-2.jpg",
             "location": "Tim Sha Tsui"
         }
@@ -73,32 +73,32 @@
             "location": "Ha Pak Nai"
         },
         {
-            "name": "Kwun Tong Sea Front",
-            "desc": "A place that is good for couple and have a nice walk, near some shopping spots and easy to reach",
+            "name": "Can you image a seafront part in an indsutrial area?",
+            "desc": "Kwun Tong Sea Front is a place that is good for couple and have a nice walk, easy to reach as well",
             "sample": "https://upload.cc/i1/2020/11/01/fEIh2j.jpg",
             "location": "Kwun Tong"
         },
         {
-            "name": "Sai Wan Swimming Shed",
-            "desc": "People in old days will swim using this facilities, with a very nice sunset!",
+            "name": "You can see beautiful sunset in many places, but do you know this one?",
+            "desc": "Sai Wan Swimming Shed is used by people for swimming in old days. It is open to public and you could see a very nice sunset!",
             "sample": "https://upload.cc/i1/2020/11/01/rQYZ7D.jpg",
             "location": "Sai Wan"
         },
         {
-            "name": "Ocean Terminal Deck",
-            "desc": "The top roof of one of the famous shopping malls, can view Victoria Harbour in a different way",
+            "name": "Beside Star Ferry Pier that everyone knows, do you know Ocean Terminal Deck is also a good spot for outlook Victoria Harbour?",
+            "desc": "It is at the top roof of one of the famous shopping malls, it is easy to reach as you could follow the instruction inside the Ocean Terminal",
             "sample": "https://upload.cc/i1/2020/11/01/zUH4yN.jpg",
             "location": "Tim Sha Tsui"
         },
         {
-            "name": "Ma Wan Beach",
-            "desc": "Can view Tsing Ma Bridge in person, not just in car!",
+            "name": "Have you ever thought about take a nice look of the Tsing Ma Bridge?",
+            "desc": "Ma Wan Beach is a good place that allow you view Tsing Ma Bridge closely, not just in car!",
             "sample": "https://upload.cc/i1/2020/11/01/dZ5uJR.jpg",
             "location": "Ma Wan"
         },
         {
-            "name": "West Kowloon Cultural District",
-            "desc": "A new place that you see the west side of the Victoria Harbour",
+            "name": "Bored about Kowloon Park and Hong Kong Park? West Kowloon Cultural District is a new park that attracts many people visiting",
+            "desc": "In West Kowloon Cultural District, you could see the west side of the Victoria Harbour, which is amazing!",
             "sample": "https://webmedia.westkowloon.hk/media/w1400h1400/park/cover-district-artpark-2.jpg",
             "location": "Tim Sha Tsui"
         }
@@ -106,25 +106,25 @@
     "night": [
         {
             "name": "Have you enjoy the night view of HK?",
-            "desc": "At night, ",
+            "desc": "Check this out at night!",
             "sample": "http://www.canon.com.hk/public/article/Skill_Sharing_Photography/10328/images/05.jpg",
             "location": "Peak"
         },
         {
-            "name": "Ocean Terminal Deck",
-            "desc": "The top roof of one of the famous shopping malls, can view Victoria Harbour in a different way",
+            "name": "Beside Star Ferry Pier that everyone knows, do you know Ocean Terminal Deck is also a good spot for outlook Victoria Harbour?",
+            "desc": "It is at the top roof of one of the famous shopping malls, it is easy to reach as you could follow the instruction inside the Ocean Terminal",
             "sample": "https://upload.cc/i1/2020/11/01/zUH4yN.jpg",
             "location": "Tim Sha Tsui"
         },
         {
-            "name": "Ma Wan Beach",
-            "desc": "Can view Tsing Ma Bridge in person, not just in car!",
+            "name": "Have you ever thought about take a nice look of the Tsing Ma Bridge?",
+            "desc": "Ma Wan Beach is a good place that allow you view Tsing Ma Bridge closely, not just in car!",
             "sample": "https://upload.cc/i1/2020/11/01/dZ5uJR.jpg",
             "location": "Ma Wan"
         },
         {
-            "name": "West Kowloon Cultural District",
-            "desc": "A new place that you see the west side of the Victoria Harbour",
+            "name": "Bored about Kowloon Park and Hong Kong Park? West Kowloon Cultural District is a new park that attracts many people visiting",
+            "desc": "In West Kowloon Cultural District, you could see the west side of the Victoria Harbour, which is amazing!",
             "sample": "https://webmedia.westkowloon.hk/media/w1400h1400/park/cover-district-artpark-2.jpg",
             "location": "Tim Sha Tsui"
         }

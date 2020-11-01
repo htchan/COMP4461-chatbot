@@ -11,6 +11,36 @@
     },
     {
         "available": true,
+        "time": "10:00~22:00",
+        "duration": "2 hr (not specify so i assume it is 2 haha)",
+        "type": "museum",
+        "title": "CAT ART by Shu Yamamoto @Harbour North",
+        "location": "Harbour North",
+        "url": "https://timable.com/event/1942853",
+        "desc": "It is our illusion when the main characters from famous paintings such as Mona Lisa, The Gleaners, and Girl with a Pearl Earring turn into cats? Nope, there is absolutely nothing wrong with your eyes! The special invitation from Japanese Yamamoto at Harbour North invite you to have a look at these amazing cat-awesome master pieces!"
+    },
+    {
+        "available": true,
+        "time": "10:00~17:00",
+        "duration": "2 hr (not specify so i assume it is 2 haha)",
+        "type": "museum",
+        "title": "JMA Hong Kong International Jewelry Show",
+        "location": "Hong Kong Convention and Exhibition Center",
+        "url": "https://www.jewelryshows.org/en/",
+        "desc": "Jewelry is everything -- at least for those who cherish them the most. Come and visit the JMA Hong Kong International Jewelry Show at Hong Kong Convention and Exhibition Center, where you can find the most beautiful and shining treasures of them all."
+    },
+    {
+        "available": true,
+        "time": "10:00~17:00",
+        "duration": "2 hr (not specify so i assume it is 2 haha)",
+        "type": "museum",
+        "title": "The Extra Ordinary Exhibition - Beyond the Surface",
+        "location": "Eaton Hong Kong Hotel",
+        "url": "https://www.eventbrite.com/e/the-extra-ordinary-exhibition-beyond-the-surface-tickets-123303527169 ",
+        "desc": "Beyond the surface, when self care becomes an ordinary act of self love, is it still called extra-ordinary? We look forward to seeing you at the Extraordinary Exhibition at Eaton Hong Kong Hotel! Reserve your ticket to this free event now."
+    },
+    {
+        "available": true,
         "type": "hiking",
         "title": "MacLehose Trail(Sections 1 and 2)",
         "location": "Sai Kung",
@@ -65,13 +95,32 @@
     },
     {
         "available": true,
-        "time": "10:00 - 17:00",
-        "duration": "",
+        "time": "7:00 - 19:00",
+        "duration": "12 hours",
         "type": "shopping",
-        "title": "Shopping - ",
-        "location": "",
-        "url": "",
-        "desc": "this is shopping desc"
+        "title": "Start you day with a decent flower",
+        "location": "Flower Market Road, Mong Kok, Kowloon",
+        "url": "https://www.flower-market.hk/",
+        "desc": "Explore different kind of flower shop offering various types of flower seasonlly"
+    },
+    {
+        "available": true,
+        "time": "10:00 - 22:00",
+        "duration": "12 hours",
+        "type": "shopping",
+        "title": "Harbour City All in One",
+        "location": "3 – 27 Canton Road, Tsim Sha Tsui, Kowloon, Hong Kong",
+        "url": "https://www.harbourcity.com.hk/en/",
+        "desc": "Most diverse shopping mall in HK, offering shopping, dinning and sightseeing"
+    },
+    {
+        "available": true,
+        "time": "7:00 - 23:00",
+        "duration": "16 hours",
+        "type": "shopping",
+        "title": "Time Square - The Place of happening",
+        "location": "1 Matheson St, Causeway Bay",
+        "url": "https://www.timessquare.com.hk/index?lang=en",
+        "desc": "World class shopping mall with numerous special events"
     }
-
 ]

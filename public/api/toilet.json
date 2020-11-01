@@ -1,6 +1,17 @@
 [
     {
-        "location": ["hkust", "hong kong university of science and technology"],
-        "toilet": "next to stairs"
+        "location": ["mong kok"],
+        "toilet": "on Mong Kok Road Public Toilet",
+        "link": "https://www.google.com.hk/maps/place/旺角道公廁/@22.3200893,114.1678742,18z/data=!4m8!1m2!2m1!1z5YWs5buB!3m4!1s0x0:0x20350dfc548797d4!8m2!3d22.3206548!4d114.1674003"
+    },
+    {
+        "location": ["Tsim Sha Tsui"],
+        "toilet": "on Nathan Road, next to the Kowloon Park",
+        "link": "https://www.google.com.hk/maps/place/公共廁所/@22.2996918,114.1710285,17z/data=!4m8!1m2!2m1!1z5YWs5buB!3m4!1s0x0:0x7157e33aee2868f5!8m2!3d22.3016941!4d114.1713998"
+    },
+    {
+        "location": ["Yau Ma Tei"],
+        "toilet": "Shanghai Street Public Toilet",
+        "link": "https://www.google.com.hk/maps/place/上海街%2F窩打老道公廁/@22.3129499,114.1693668,18z/data=!4m8!1m2!2m1!1z5YWs5buB!3m4!1s0x0:0x84f2250f0aa649ea!8m2!3d22.312612!4d114.1693211"
     }
 ]
