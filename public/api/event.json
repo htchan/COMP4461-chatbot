@@ -2,24 +2,71 @@
     {
         "available": true,
         "time": "10:00 - 17:00",
+        "duration": "2 hours",
         "type": "museum",
         "title": "Exhibition - History Through the Lens: Photographs of Early Hong Kong",
         "location": "Hong Kong Museum of History",
         "url": "https://hk.history.museum/en_US/web/mh/exhibition/lobby.html",
-        "desc": "it is a good chance to know HK history, if you're interested in history, you should never miss it!!!"
+        "desc": "it is a good chance to learn HK history, dont miss it 📖"
     },
     {
         "available": true,
-        "time": "anytime",
         "type": "hiking",
-        "title": "Hiking - ",
-        "location": "",
-        "url": "",
-        "desc": "this is hiking desc"
+        "title": "MacLehose Trail(Sections 1 and 2)",
+        "location": "Sai Kung",
+        "during":"6 hours",
+        "url": "https://www.discoverhongkong.com/ca/explore/great-outdoor/great-outdoors-hong-kong/maclehose-trail-high-island-reservoir.html",
+        "desc": "This is the most popular hiking trail in Hong Kong! Worth a try!"
+    },
+    {
+        "available": true,
+        "type": "hiking",
+        "title": "Garden Hill",
+        "location": "Sam Shui Po",
+        "during":"0.5 hours",
+        "url": "http://www.hongkonghikes.com/2016/09/short-urban-walk-to-garden-hill-in-sham.html",
+        "desc": "Little hill in an urban setting, good place to see how people live here"
+    },
+    {
+        "available": true,
+        "type": "hiking",
+        "title": "Dragon's back",
+        "starting location": "Stanley",
+        "during":"4 hours",
+        "url": "https://www.discoverhongkong.com/ca/explore/great-outdoor/dragons-back.html",
+        "desc": "Best urban hiking trail with best scenery"
+    },
+    {
+        "available": true,
+        "type": "hiking",
+        "title": "Garden Hill",
+        "starting location": "Sam Shui Po",
+        "during":"0.5 hours",
+        "url": "http://www.hongkonghikes.com/2016/09/short-urban-walk-to-garden-hill-in-sham.html",
+        "desc": "Little hill in an urban setting, good place to see how people live here"
+    },
+    {
+        "available": true,
+        "type": "hiking",
+        "title": "Devil's Peak",
+        "starting location": "Yau Tong",
+        "during":"2 hours",
+        "url": "https://droneandslr.com/travel-blog/hong-kong/devils-peak-hike/",
+        "desc": "An old battery to defend Hong Kong, could see a different view of victory harbor"
+    },
+    {
+        "available": true,
+        "type": "hiking",
+        "title": "Razor Hill",
+        "starting location": "Hang Hau",
+        "during":"2 hours",
+        "url": "https://droneandslr.com/travel-blog/hong-kong/razor-hill-hike/",
+        "desc": "A hill near HKUST, which is a very amazing hill which you can spot the city during when you moving up"
     },
     {
         "available": true,
         "time": "10:00 - 17:00",
+        "duration": "",
         "type": "shopping",
         "title": "Shopping - ",
         "location": "",

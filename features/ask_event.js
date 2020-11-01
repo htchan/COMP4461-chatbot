@@ -38,8 +38,8 @@ module.exports = function(controller) {
                 let events = await callEventApi('shopping');
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
-                await bot.reply(message, `I have found some info for you : ${event.title}`)
-                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
+                await bot.reply(message, `I have found some info for you :`)
+                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br>Duration: ${event.duration}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
             }
         },
@@ -51,8 +51,8 @@ module.exports = function(controller) {
                 let events = await callEventApi('hiking');
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
-                await bot.reply(message, `I have found some info for you : ${event.title}`)
-                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
+                await bot.reply(message, `I have found some info for you :`)
+                await bot.reply(message, `Title: ${event.title}<br>Duration: ${event.duration}<br/>Starting Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
             }
         },
@@ -64,8 +64,8 @@ module.exports = function(controller) {
                 let events = await callEventApi('hiking');
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
-                await bot.reply(message, `You may be interested in ${event.title}`)
-                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
+                await bot.reply(message, `I have found some info for you :`)
+                await bot.reply(message, `Title: ${event.title}<br>Duration: ${event.duration}<br/>Starting Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
             }
         },
@@ -77,8 +77,8 @@ module.exports = function(controller) {
                 let events = await callEventApi('museum');
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
-                await bot.reply(message, `You may be interested in ${event.title}`)
-                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
+                await bot.reply(message, `I have found some info for you :`)
+                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br>Duration: ${event.duration}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
             }
         },
@@ -90,8 +90,8 @@ module.exports = function(controller) {
                 let events = await callEventApi();
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
-                await bot.reply(message, `You may be interested in ${event.title}`)
-                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
+                await bot.reply(message, `I have found some info for you :`)
+                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br>Duration: ${event.duration}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
             }
         },
@@ -126,8 +126,8 @@ module.exports = function(controller) {
                 let events = await callEventApi('museum');
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
-                await bot.reply(message, `You may be interested in ${event.title}`)
-                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
+                await bot.reply(message, `I have found some info for you :`)
+                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br>Duration: ${event.duration}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
             }
         },

@@ -11,7 +11,8 @@ module.exports = function(controller) {
     }
 
     controller.hears([(message) => message.text.search(/recommandation/i) >= 0 && message.text.search(/fun/i) >= 0, 'boring'], 'message', async(bot, message) => {
-        let h = new Date().getHours();
+        let h = new Date().getHours() + 8;
+        console.log(h)
         if (h < 6) { h = 'midnight'; }
         else if (h < 12) { h = 'morning'; }
         else if (h < 17) { h = 'afternoon'; }
@@ -19,7 +20,7 @@ module.exports = function(controller) {
         else { h = 'night'; }
         let timeRange = ['midnight', 'morning', 'afternoon', 'evening', 'night'];
         timeRange = timeRange.map( item => {
-                                    let i = message.text.search(new RegExp(item, "i"));
+                                    let i = h.search(new RegExp(item, "i"));
                                     return i >= 0 ? {num: i, item: item} : '';
                                 })
                                 .filter( item => item != '')

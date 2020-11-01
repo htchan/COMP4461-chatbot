@@ -79,7 +79,7 @@ module.exports = function(controller) {
 
 
     controller.addDialog(findRoute);
-    controller.hears([new RegExp(/how .+ go .+/i),"route"], 'message', async (bot, message) => {
+    controller.hears([new RegExp(/how .+ go .+/i),"route", "travel"], 'message', async (bot, message) => {
         await bot.beginDialog('findRoute');
     });
 }
