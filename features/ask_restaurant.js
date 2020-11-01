@@ -22,7 +22,7 @@ module.exports = function(controller) {
     }
 
     let findRestaurant = new BotkitConversation('findRestaurant', controller);
-    findRestaurant.say('You looks hungry?');
+    findRestaurant.say('You look hungry?');
     findRestaurant.ask({
         text: 'Before helping you find restaurant, may I get your GPS permission?',
         quick_replies: [
@@ -80,15 +80,32 @@ module.exports = function(controller) {
     ], '', 'ask_location');
 
     findRestaurant.addQuestion({
-        text: 'Do you have any preference on the food?',
+        text: 'I have search some restaurant for you, do you have any preference on the food?',
         quick_replies: [
-            { title: 'American Food', payload:'I like American food' },
-            { title: 'Chinese Food', payload:'I like Chinese food' },
-            { title: 'Franch Food', payload:'I like Franch food' },
-            { title: 'Korean Food', payload:'I like Korean food' },
-            { title: 'Japanese Food', payload:'I like Japanese food' },
+            { title: 'Local Food', payload:'i like to have some local food' },
+            { title: 'Chinese Food', payload:'i like to have some Chinese food' },
+            { title: 'Korean Food', payload:'i like to have some Korean food' },
+            { title: 'American Food', payload:'i like to have some American food' },
+            { title: 'Franch Food', payload:'i like to have some Franch food' },
+            { title: 'Japanese Food', payload:'i like to have some Japanese food' },
         ]
     },[
+        {
+            pattern: 'local',
+            type: 'string',
+            handler: async(response, r, bot, message) => {
+                let found = r.vars.suggestion.filter( item => item.type === 'local');
+                if (found.length > 0) {
+                    let suggestion = found.reduce((value, item) => `${value} [**${item.name}**](${item.url})`, '');
+                    r.setVar('suggestion', suggestion);
+                    return await r.gotoThread('found');
+                } else {
+                    r.setVar('type', response);
+                    return await r.gotoThread('not_found_type');
+                }
+
+            }
+        },
         {
             pattern: 'america',
             type: 'string',
@@ -195,14 +212,18 @@ module.exports = function(controller) {
         }
     ], '', 'preference');
 
-    findRestaurant.addMessage('I have found some restaurants, let check them out: <br/> {{vars.suggestion}}', 'found');
+    findRestaurant.addMessage('I have searched some restaurants😛, let check them out: <br/> {{vars.suggestion}}', 'found');
 
     findRestaurant.addMessage('Sorry, I cant find any restaurant next to you in my database, we can try finding it in <a href="https://www.openrice.com/en/hongkong/restaurants?where={{vars.location_url}}" target="_blank">OpenRice</a>? It is a webpage for finding restaurant in Hong Kong.', 'not_found_location')
 
     findRestaurant.addMessage('Sorry, I cant find any restaurant match your preference in my database, maybe we can check it in <a href="https://www.openrice.com/en/hongkong/restaurants?where={{vars.location_url}}&what={{vars.type}}" target="_blank">OpenRice</a>?', 'not_found_type')
 
+    findRestaurant.addMessage('Ask me another question', 'not_found_location');
+    findRestaurant.addMessage('Ask me another question', 'not_found_type');
+
+
     controller.addDialog(findRestaurant);
-    controller.hears(["restaurant", "hungry", "breakfast", "lunch", "dinner", "brunct", "tea"],
+    controller.hears(["restaurant", "hungry", "breakfast", "lunch", "dinner", "brunch", "tea", 'eat', 'food'],
         'message', async (bot, message) => {
             await bot.beginDialog('findRestaurant');
         });

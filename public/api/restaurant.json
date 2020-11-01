@@ -3,7 +3,7 @@
         "location": ["hkust", "hong kong university of science and technology"],
         "restaurants": [
             {
-                "type": "chinese",
+                "type": "local",
                 "name": "golden rice bowl", 
                 "url": "https://www.openrice.com/en/hongkong/r-%E9%87%91%E9%A3%AF%E7%A2%97%E7%BE%8E%E9%A3%9F-sai-kung-hong-kong-style-ramen-r25426"
             },

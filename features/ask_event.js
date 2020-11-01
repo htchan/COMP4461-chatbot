@@ -38,9 +38,9 @@ module.exports = function(controller) {
                 let events = await callEventApi('shopping');
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
-                await bot.reply(message, `You may be interested in ${event.title}`)
+                await bot.reply(message, `I have found some info for you : ${event.title}`)
+                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
-                await bot.reply(message, `Here is the event details:<br/>Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
             }
         },
         {
@@ -51,9 +51,9 @@ module.exports = function(controller) {
                 let events = await callEventApi('hiking');
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
-                await bot.reply(message, `You may be interested in ${event.title}`)
+                await bot.reply(message, `I have found some info for you : ${event.title}`)
+                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
-                await bot.reply(message, `Here is the event details:<br/>Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
             }
         },
         {
@@ -65,8 +65,8 @@ module.exports = function(controller) {
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
                 await bot.reply(message, `You may be interested in ${event.title}`)
+                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
-                await bot.reply(message, `Here is the event details:<br/>Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
             }
         },
         {
@@ -78,8 +78,8 @@ module.exports = function(controller) {
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
                 await bot.reply(message, `You may be interested in ${event.title}`)
+                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
-                await bot.reply(message, `Here is the event details:<br/>Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
             }
         },
         {
@@ -91,8 +91,8 @@ module.exports = function(controller) {
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
                 await bot.reply(message, `You may be interested in ${event.title}`)
+                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
-                await bot.reply(message, `Here is the event details:<br/>Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
             }
         },
         {
@@ -127,8 +127,8 @@ module.exports = function(controller) {
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
                 await bot.reply(message, `You may be interested in ${event.title}`)
+                await bot.reply(message, `Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
                 await bot.reply(message, event.desc);
-                await bot.reply(message, `Here is the event details:<br/>Title: ${event.title}<br/>time: ${event.time}<br/>Location: ${event.location}<br/>Link: <a href="${event.url}" target="_blank">${event.url}</a>`)
             }
         },
         {
