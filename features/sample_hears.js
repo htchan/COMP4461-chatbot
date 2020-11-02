@@ -29,7 +29,7 @@ module.exports = function(controller) {
                     payload: "Do you have any activities suggestion?"
                 },
                 {
-                    title: "Translat local phase",
+                    title: "Translate local slang",
                     payload: "Can you help me translate a phase?"
                 }
             ]

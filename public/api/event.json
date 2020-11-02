@@ -12,7 +12,7 @@
     {
         "available": true,
         "time": "10:00~22:00",
-        "duration": "2 hr (not specify so i assume it is 2 haha)",
+        "duration": "2 hr",
         "type": "museum",
         "title": "CAT ART by Shu Yamamoto @Harbour North",
         "location": "Harbour North",
@@ -22,7 +22,7 @@
     {
         "available": true,
         "time": "10:00~17:00",
-        "duration": "2 hr (not specify so i assume it is 2 haha)",
+        "duration": "2 hr",
         "type": "museum",
         "title": "JMA Hong Kong International Jewelry Show",
         "location": "Hong Kong Convention and Exhibition Center",
@@ -32,7 +32,7 @@
     {
         "available": true,
         "time": "10:00~17:00",
-        "duration": "2 hr (not specify so i assume it is 2 haha)",
+        "duration": "2 hr",
         "type": "museum",
         "title": "The Extra Ordinary Exhibition - Beyond the Surface",
         "location": "Eaton Hong Kong Hotel",

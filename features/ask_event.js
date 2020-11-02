@@ -25,7 +25,7 @@ module.exports = function(controller) {
             text: 'Do You have any preference on the type of activities?', 
             quick_replies: [
                 { title: 'Hiking', payload: 'hiking' },
-                { title: 'Shopping', patload: 'shopping' },
+                { title: 'Shopping', payload: 'shopping' },
                 { title: 'Visit museum', payload: 'Visit museum' },
                 { title: 'No preference', payload: 'No preference' }
             ]
@@ -123,7 +123,7 @@ module.exports = function(controller) {
             pattern: 'other',
             type: 'string',
             handler: async(response, ask, bot, message) => {
-                let events = await callEventApi(r.vars.prefer);
+                let events = await callEventApi(ask.vars.prefer);
                 let i = Math.floor(Math.random()*events.length);
                 let event = events[i];
                 await bot.reply(message, `I have found some info for you :`)
