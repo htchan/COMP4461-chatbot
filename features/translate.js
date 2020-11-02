@@ -77,7 +77,7 @@ module.exports = function(controller) {
     new RegExp("what does .+ mean\\??", "i"),
     new RegExp(".+ is what\\??", "i"),
     new RegExp("what is .+\\??", "i")], 'message', async(bot, message) => {
-        let word = message.text.replace(/(may I know what is |can you explain what is |what does | mean| is what|what is |\?)/, '');
+        let word = message.text.replace(/(may I know what is |can you explain what is |what does | mean| is what|what is |\?)/i, '');
         let found = await callTranslateApi(word);
         if (found) {
             await bot.reply(message, `The <strong>${word}</strong> actually means <strong>${found.meaning}</strong>`);
