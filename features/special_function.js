@@ -10,7 +10,7 @@ module.exports = function(controller) {
         .then( data => data[time] );
     }
 
-    controller.hears([(message) => message.text.search(/recommendation/i) >= 0 && message.text.search(/fun/i) >= 0, 'boring'], 'message', async(bot, message) => {
+    controller.hears([(message) => message.text.search(/recommendation/i) >= 0 && message.text.search(/fun/i) >= 0, 'bored'], 'message', async(bot, message) => {
         let h = new Date().getHours() + 8;
         console.log(h)
         if (h < 6) { h = 'midnight'; }
